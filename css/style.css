@@ -13,14 +13,36 @@
     gap: 1.25rem;
 
 }
-
 .navbar li a{
     font-size: 1.5rem;
     padding: 1rem .1875rem 1rem .1875rem;
     color: black;
 }
-
-/*presentacion*/
+/* main */
+main a{
+    width: 100%;
+    height: 10%;
+    border: .1563rem solid black;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: .125rem .125rem .3125rem;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+}
+h1{
+    width: 100%;
+    font-size: 2rem;
+}
+h2{
+    width: 100%;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+p{
+    font-size: 1.1rem;
+}
+/*Presentacion*/
 .presentacion{
     width: 79%;
     margin: 2% 0% 2% 10.5%;
@@ -32,12 +54,26 @@
 .presentacion image{
     width: 60%;
     height: 100%
-
 }
 .presentacion div{
     width: 40%;
 }
 
+.presentacion-productos{
+    width: 79%;
+    margin: 2% 0% 2% 10.5%;
+    height: 25rem;
+    display:flex;
+    border: .125rem solid black;
+    background-color: #F70000;
+}
+.presentacion-productos image{
+    width: 60%;
+    height: 100%
+}
+.presentacion-productos div{
+    width: 40%;
+}
 /*productos*/
 .container-grid-productos{
     display: grid;
@@ -133,29 +169,7 @@
     width: 70%;
     padding: .625rem;
 }
-main a{
-    width: 100%;
-    height: 10%;
-    border: .1563rem solid black;
-    font-size: 2rem;
-    font-weight: bold;
-    box-shadow: .125rem .125rem .3125rem;
-    text-decoration: none;
-    color: black;
-    padding: 2px;
-}
-h1{
-    width: 100%;
-    font-size: 2rem;
-}
-h2{
-    width: 100%;
-    font-size: 2rem;
-    text-decoration: underline;
-}
-p{
-    font-size: 1.1rem;
-}
+
 textarea {
     resize: none; /* Deshabilita el redimensionamiento */
     width: 100%;  /* Define un tamaño fijo */
