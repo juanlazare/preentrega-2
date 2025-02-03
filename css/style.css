@@ -1,0 +1,177 @@
+/*reset css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+.navbar{
+    margin: .625rem;
+    display: flex;
+    list-style: none;
+    gap: 1.25rem;
+
+}
+
+.navbar li a{
+    font-size: 1.5rem;
+    padding: 1rem .1875rem 1rem .1875rem;
+    color: black;
+}
+
+/*presentacion*/
+.presentacion{
+    width: 79%;
+    margin: 2% 0% 2% 10.5%;
+    height: 25rem;
+    display:flex;
+    border: .125rem solid black;
+    background-color: #F70000;
+}   
+.presentacion image{
+    width: 60%;
+    height: 100%
+
+}
+.presentacion div{
+    width: 40%;
+}
+
+/*productos*/
+.container-grid-productos{
+    display: grid;
+    width: 100%;
+    
+    grid-template: 15.625rem 18.75rem /repeat(3, 25%);
+    grid-template-areas: 
+    "producto-1 producto-2 producto-3"
+    "producto-4 producto-4 producto-4";
+    /* height: 31.25rem; */
+    /* height: 56.25rem; */
+    justify-content: center;
+    align-content: center;
+    gap: 2%;
+
+}
+.producto-1{
+    grid-area: producto-1;
+    text-align: center;
+}
+
+.producto-1 img{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+}
+.producto-2{
+    grid-area: producto-2;
+    text-align: center;
+}
+.producto-2 img{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+}
+.producto-3{
+    grid-area: producto-3;
+    text-align: center;
+}
+.producto-3 img{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+}
+.producto-4{
+    grid-area: producto-4;
+    display: flex;
+    border: .125rem solid black;
+    background-color: #F70000;
+
+}
+
+.producto-4 img{
+    width: 40%;
+    height: 100%;
+}
+
+.producto-4 div{
+    width: 100%;
+    text-align: start;
+    padding: .625rem .3125rem .3125rem 1.875rem;
+}
+
+/*contacto*/
+.contacto-index{
+    width: 79%;
+    margin: 2% 0% 2% 10.5%;
+    height: 25rem;
+    display:flex;
+    gap: 2%;
+}
+
+.contacto-1{
+    background-color: #F70000;
+    border: .125rem solid black;
+    text-align: start;
+    width: 32%;
+    height: 25rem;
+}
+
+.contacto-1 div{
+    padding: .625rem;
+}
+.contacto-1 img{
+    width: 100%;
+    height:238.4px;
+}
+
+.contacto-2{
+    background-color: #F70000;
+    border: .125rem solid black;
+    text-align: start;
+    width: 70%;
+    padding: .625rem;
+}
+main a{
+    width: 100%;
+    height: 10%;
+    border: .1563rem solid black;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: .125rem .125rem .3125rem;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+}
+h1{
+    width: 100%;
+    font-size: 2rem;
+}
+h2{
+    width: 100%;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+p{
+    font-size: 1.1rem;
+}
+textarea {
+    resize: none; /* Deshabilita el redimensionamiento */
+    width: 100%;  /* Define un tamaño fijo */
+    height: 15.625rem;
+  }
+
+.parrafo{
+    font-size: 1.1rem;
+  }
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-2 button{
+    padding: .625rem 1.25rem .625rem 1.25rem;
+    font-size: 1.1rem;
+}

@@ -4,8 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="../preentrega-2/css/style.css">
 </head>
 <body>
-    <h1>pruebaaaaa</h1>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="../preentrega-2/pages/honda.html">Honda</a></li>
+                <li><a href="../preentrega-2/pages/yamaha.html">yamaha</a></li>
+                <li><a href="../preentrega-2/pages/bajaj.html">Bajaj</a></li>
+                <li><a href="../preentrega-2/pages/indumentaria.html">indumentaria</a></li>
+                <li><a href="#Contacto">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="presentacion">
+                <img src="../preentrega-2/assets/taller01.jpg" alt="imagen de presentacion">
+            <div>
+                <h1>MotosLazare.S.A.</h1>
+                <p>En Lazare Motos trabajamos con las mejore marcas del mercado asegurando productos y estandares de la mas alta categoria</p>
+            </div>
+        </section>
+        <section class="container-grid-productos">
+            <div class="producto-1">
+                <img src="../preentrega-2/assets/Honda_Logo.png" alt="logo honda">
+                <a href="../preentrega-2/pages/honda.html">Ver Productos</a>
+            </div>
+            <div class="producto-2">
+                <img src="../preentrega-2/assets/yamaha_logo.png" alt="logo yamaha">
+                <a href="../preentrega-2/pages/yamaha.html">Ver Productos</a>
+            </div>
+            <div class="producto-3">
+                <img src="../preentrega-2/assets/bajaj_logo.png" alt="logo BAJAJ">
+                <a href="../preentrega-2/pages/bajaj.html">Ver Productos</a>
+            </div>
+            <div class="producto-4 producto-4-container">
+                    <img src="../preentrega-2/assets/indumentaria.jpg" alt="logo-indumentaria">
+                <div>
+                    <h2>INDUMENTARIA</h2>
+                    <p>Gran variedad de indumentaria, accesorios y repuestos generales</p>
+                    <ul>
+                        <li>cascos</li>
+                        <li>camperas</li>
+                        <li>accesorios</li>
+                        <li>guantes</li>
+                        <li>repuestos</li>
+                    </ul>
+                        <a href="../preentrega-2/pages/indumentaria.html"">Ver Productos</a>
+                </div>  
+            </div>
+        </section>
+        <section class="contacto-index">
+            <div class="contacto-1">
+                <div>               
+                    <h2 id="contacto">Contactanos</h2>
+                    <p><strong>Sucursal Boedo:</strong>constitucion ****-CABA</p>
+                    <p><strong>Sucursal caballito:</strong>valle ****-CABA</p>
+                    <p><strong>Telefono:</strong>+54911*******</p>
+                    <p><strong>Mail:</strong>motoslazare@gmail.com</p>                    
+                </div>
+
+                <img src="../preentrega-2/assets/accesorios.jpg" alt="accesorios">
+            </div>
+            <div class="contacto-2">
+                <h2>Dejanos tu consulta y tu mail</h2>
+                <form action="/submit" method="post">
+                    <div class="parrafo-1">
+                        <label for="mail" class="parrafo" ><strong>mail</strong></label>
+                        <input type="email" name="mail" id="mail">
+                    </div>
+                    <div class="parrafo-2">
+                        <label for="mensaje" class="parrafo"><strong>Consulta</strong></label>
+                        <textarea name="mensaje" id="mensaje"></textarea>
+                    </div>
+                <button><strong>Enviar</strong></button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>contactos? o que</p>
+    </footer>
 </body>
 </html>
